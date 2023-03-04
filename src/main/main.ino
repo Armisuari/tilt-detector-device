@@ -1,4 +1,5 @@
 #include <Arduino.h>
+//hai adama sayang
 
 void setup() {
   // put your setup code here, to run once:
