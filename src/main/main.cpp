@@ -24,6 +24,8 @@ void setup()
   WiFi.begin(ssid, password);
 
   wifi_set.begin(ssid, password);
+  setup_thingESP();
+  sensor_setup();
 
   while (WiFi.status() != WL_CONNECTED)
   {
