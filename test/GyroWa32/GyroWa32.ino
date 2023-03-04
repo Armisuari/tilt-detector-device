@@ -50,8 +50,6 @@ void setup() {
   mpu.calcOffsets(); // gyro and accelero
   Serial.println("Done!\n");
 
-
-
 }
 String HandleResponse(String query){
 
