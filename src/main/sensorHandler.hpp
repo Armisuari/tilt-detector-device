@@ -7,7 +7,7 @@ MPU6050 mpu(Wire);
 unsigned long timer = 0;
 
 unsigned long previousMillis = 0;
-const long INTERVAL = 6000;
+const long INTERVAL = 10000;
 
 void sensor_setup()
 {
